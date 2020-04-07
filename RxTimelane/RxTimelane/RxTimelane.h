@@ -2,7 +2,7 @@
 //  RxTimelane.h
 //  RxTimelane
 //
-//  Created by Karim Ebrahem on 3/24/20.
+//  Created by Marius Landwehr on 07.04.20.
 //  Copyright © 2020 Marin Todorov. All rights reserved.
 //
 

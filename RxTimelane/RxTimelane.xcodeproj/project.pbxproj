@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E08784B243C5B8B0029AE08 /* RxTimelane.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E087849243C5B8B0029AE08 /* RxTimelane.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC15C5FC242AA86F00D8F7B5 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BC15C5FB242AA86F00D8F7B5 /* RxSwift */; };
 		BC15C5FF242AA8C500D8F7B5 /* TimelaneCore in Frameworks */ = {isa = PBXBuildFile; productRef = BC15C5FE242AA8C500D8F7B5 /* TimelaneCore */; };
 		BC15C602242AAA6300D8F7B5 /* RxTimelane in Frameworks */ = {isa = PBXBuildFile; productRef = BC15C601242AAA6300D8F7B5 /* RxTimelane */; };
@@ -17,30 +18,12 @@
 		BC385728242A36E4006BC2D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC385727242A36E4006BC2D8 /* Assets.xcassets */; };
 		BC38572B242A36E4006BC2D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC385729242A36E4006BC2D8 /* LaunchScreen.storyboard */; };
 		BC385731242A3723006BC2D8 /* Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC385730242A3723006BC2D8 /* Worker.swift */; };
-		BC94D92F242972B40068D353 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC94D92E242972B40068D353 /* RxSwift.framework */; };
-		BC94D930242972B40068D353 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BC94D92E242972B40068D353 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BC94D933242972B70068D353 /* TimelaneCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC94D932242972B70068D353 /* TimelaneCore.framework */; platformFilter = ios; };
-		BC94D934242972B70068D353 /* TimelaneCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BC94D932242972B70068D353 /* TimelaneCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BCEA4D6E2429714A00B8E52C /* RxTimelane.h in Headers */ = {isa = PBXBuildFile; fileRef = BCEA4D6C2429714A00B8E52C /* RxTimelane.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCEA4D752429719E00B8E52C /* RxTimelane.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEA4D742429719E00B8E52C /* RxTimelane.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		BC94D931242972B40068D353 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				BC94D934242972B70068D353 /* TimelaneCore.framework in Embed Frameworks */,
-				BC94D930242972B40068D353 /* RxSwift.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		8E087847243C5B8B0029AE08 /* RxTimelane.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxTimelane.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E087849243C5B8B0029AE08 /* RxTimelane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxTimelane.h; sourceTree = "<group>"; };
+		8E08784A243C5B8B0029AE08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC38571C242A36E2006BC2D8 /* RxTimelaneExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxTimelaneExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC38571E242A36E2006BC2D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC385720242A36E2006BC2D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,13 +35,19 @@
 		BC385730242A3723006BC2D8 /* Worker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
 		BC94D92E242972B40068D353 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		BC94D932242972B70068D353 /* TimelaneCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TimelaneCore.framework; path = Carthage/Build/iOS/TimelaneCore.framework; sourceTree = "<group>"; };
-		BCEA4D692429714A00B8E52C /* RxTimelane.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxTimelane.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEA4D6C2429714A00B8E52C /* RxTimelane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxTimelane.h; sourceTree = "<group>"; };
 		BCEA4D6D2429714A00B8E52C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCEA4D742429719E00B8E52C /* RxTimelane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RxTimelane.swift; path = ../../Sources/RxTimelane/RxTimelane.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8E087844243C5B8B0029AE08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC385719242A36E2006BC2D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,18 +58,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCEA4D662429714A00B8E52C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC94D933242972B70068D353 /* TimelaneCore.framework in Frameworks */,
-				BC94D92F242972B40068D353 /* RxSwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E087848243C5B8B0029AE08 /* RxTimelane */ = {
+			isa = PBXGroup;
+			children = (
+				8E087849243C5B8B0029AE08 /* RxTimelane.h */,
+				8E08784A243C5B8B0029AE08 /* Info.plist */,
+			);
+			path = RxTimelane;
+			sourceTree = "<group>";
+		};
 		BC38571D242A36E2006BC2D8 /* RxTimelaneExample */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +99,7 @@
 			children = (
 				BCEA4D6B2429714A00B8E52C /* RxTimelane */,
 				BC38571D242A36E2006BC2D8 /* RxTimelaneExample */,
+				8E087848243C5B8B0029AE08 /* RxTimelane */,
 				BCEA4D6A2429714A00B8E52C /* Products */,
 				BC94D92D242972B40068D353 /* Frameworks */,
 			);
@@ -118,8 +108,8 @@
 		BCEA4D6A2429714A00B8E52C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BCEA4D692429714A00B8E52C /* RxTimelane.framework */,
 				BC38571C242A36E2006BC2D8 /* RxTimelaneExample.app */,
+				8E087847243C5B8B0029AE08 /* RxTimelane.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,17 +127,35 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		BCEA4D642429714A00B8E52C /* Headers */ = {
+		8E087842243C5B8B0029AE08 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCEA4D6E2429714A00B8E52C /* RxTimelane.h in Headers */,
+				8E08784B243C5B8B0029AE08 /* RxTimelane.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		8E087846243C5B8B0029AE08 /* RxTimelane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E08784C243C5B8B0029AE08 /* Build configuration list for PBXNativeTarget "RxTimelane" */;
+			buildPhases = (
+				8E087842243C5B8B0029AE08 /* Headers */,
+				8E087843243C5B8B0029AE08 /* Sources */,
+				8E087844243C5B8B0029AE08 /* Frameworks */,
+				8E087845243C5B8B0029AE08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxTimelane;
+			productName = RxTimelane;
+			productReference = 8E087847243C5B8B0029AE08 /* RxTimelane.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		BC38571B242A36E2006BC2D8 /* RxTimelaneExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC38572F242A36E4006BC2D8 /* Build configuration list for PBXNativeTarget "RxTimelaneExample" */;
@@ -170,25 +178,6 @@
 			productReference = BC38571C242A36E2006BC2D8 /* RxTimelaneExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BCEA4D682429714A00B8E52C /* RxTimelane */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BCEA4D712429714A00B8E52C /* Build configuration list for PBXNativeTarget "RxTimelane" */;
-			buildPhases = (
-				BCEA4D642429714A00B8E52C /* Headers */,
-				BCEA4D652429714A00B8E52C /* Sources */,
-				BCEA4D662429714A00B8E52C /* Frameworks */,
-				BCEA4D672429714A00B8E52C /* Resources */,
-				BC94D931242972B40068D353 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RxTimelane;
-			productName = RxTimelane;
-			productReference = BCEA4D692429714A00B8E52C /* RxTimelane.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,12 +188,11 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Marin Todorov";
 				TargetAttributes = {
-					BC38571B242A36E2006BC2D8 = {
+					8E087846243C5B8B0029AE08 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
-					BCEA4D682429714A00B8E52C = {
+					BC38571B242A36E2006BC2D8 = {
 						CreatedOnToolsVersion = 11.3.1;
-						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -226,13 +214,20 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BCEA4D682429714A00B8E52C /* RxTimelane */,
+				8E087846243C5B8B0029AE08 /* RxTimelane */,
 				BC38571B242A36E2006BC2D8 /* RxTimelaneExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8E087845243C5B8B0029AE08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BC38571A242A36E2006BC2D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,16 +238,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCEA4D672429714A00B8E52C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E087843243C5B8B0029AE08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
 		BC385718242A36E2006BC2D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -261,14 +256,6 @@
 				BC385731242A3723006BC2D8 /* Worker.swift in Sources */,
 				BC38571F242A36E2006BC2D8 /* AppDelegate.swift in Sources */,
 				BC385721242A36E2006BC2D8 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BCEA4D652429714A00B8E52C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BCEA4D752429719E00B8E52C /* RxTimelane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +281,54 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8E08784D243C5B8B0029AE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RxTimelane/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tools.timelane.RxTimelane;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8E08784E243C5B8B0029AE08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RxTimelane/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tools.timelane.RxTimelane;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		BC38572D242A36E4006BC2D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -387,13 +422,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -444,78 +482,33 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		BCEA4D722429714A00B8E52C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = RxTimelane/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.marintodorov.RxTimelane;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		BCEA4D732429714A00B8E52C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = RxTimelane/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.marintodorov.RxTimelane;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8E08784C243C5B8B0029AE08 /* Build configuration list for PBXNativeTarget "RxTimelane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E08784D243C5B8B0029AE08 /* Debug */,
+				8E08784E243C5B8B0029AE08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BC38572F242A36E4006BC2D8 /* Build configuration list for PBXNativeTarget "RxTimelaneExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -530,15 +523,6 @@
 			buildConfigurations = (
 				BCEA4D6F2429714A00B8E52C /* Debug */,
 				BCEA4D702429714A00B8E52C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BCEA4D712429714A00B8E52C /* Build configuration list for PBXNativeTarget "RxTimelane" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BCEA4D722429714A00B8E52C /* Debug */,
-				BCEA4D732429714A00B8E52C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
