@@ -8,8 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8E087862243C67390029AE08 /* RxTimelane.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEA4D742429719E00B8E52C /* RxTimelane.swift */; };
-		8E087864243C67560029AE08 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8E087863243C67560029AE08 /* RxSwift */; };
-		8E087866243C67560029AE08 /* TimelaneCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8E087865243C67560029AE08 /* TimelaneCore */; };
+		8E08786D243C71A50029AE08 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E087867243C71A50029AE08 /* RxBlocking.framework */; };
+		8E08786E243C71A50029AE08 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E087868243C71A50029AE08 /* RxSwift.framework */; };
+		8E08786F243C71A50029AE08 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E087869243C71A50029AE08 /* RxCocoa.framework */; };
+		8E087870243C71A50029AE08 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E08786A243C71A50029AE08 /* RxRelay.framework */; };
+		8E087871243C71A50029AE08 /* TimelaneCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E08786B243C71A50029AE08 /* TimelaneCore.framework */; };
+		8E087872243C71A50029AE08 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E08786C243C71A50029AE08 /* RxTest.framework */; };
 		BC15C5FC242AA86F00D8F7B5 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BC15C5FB242AA86F00D8F7B5 /* RxSwift */; };
 		BC15C5FF242AA8C500D8F7B5 /* TimelaneCore in Frameworks */ = {isa = PBXBuildFile; productRef = BC15C5FE242AA8C500D8F7B5 /* TimelaneCore */; };
 		BC15C602242AAA6300D8F7B5 /* RxTimelane in Frameworks */ = {isa = PBXBuildFile; productRef = BC15C601242AAA6300D8F7B5 /* RxTimelane */; };
@@ -24,6 +28,12 @@
 
 /* Begin PBXFileReference section */
 		8E087847243C5B8B0029AE08 /* RxTimelane.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxTimelane.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E087867243C71A50029AE08 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = ../Carthage/Build/Mac/RxBlocking.framework; sourceTree = "<group>"; };
+		8E087868243C71A50029AE08 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
+		8E087869243C71A50029AE08 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
+		8E08786A243C71A50029AE08 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = ../Carthage/Build/Mac/RxRelay.framework; sourceTree = "<group>"; };
+		8E08786B243C71A50029AE08 /* TimelaneCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TimelaneCore.framework; path = ../Carthage/Build/Mac/TimelaneCore.framework; sourceTree = "<group>"; };
+		8E08786C243C71A50029AE08 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = ../Carthage/Build/Mac/RxTest.framework; sourceTree = "<group>"; };
 		BC38571C242A36E2006BC2D8 /* RxTimelaneExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxTimelaneExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC38571E242A36E2006BC2D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC385720242A36E2006BC2D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,8 +55,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E087866243C67560029AE08 /* TimelaneCore in Frameworks */,
-				8E087864243C67560029AE08 /* RxSwift in Frameworks */,
+				8E08786E243C71A50029AE08 /* RxSwift.framework in Frameworks */,
+				8E087870243C71A50029AE08 /* RxRelay.framework in Frameworks */,
+				8E08786F243C71A50029AE08 /* RxCocoa.framework in Frameworks */,
+				8E087871243C71A50029AE08 /* TimelaneCore.framework in Frameworks */,
+				8E087872243C71A50029AE08 /* RxTest.framework in Frameworks */,
+				8E08786D243C71A50029AE08 /* RxBlocking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +95,12 @@
 		BC94D92D242972B40068D353 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8E087867243C71A50029AE08 /* RxBlocking.framework */,
+				8E087869243C71A50029AE08 /* RxCocoa.framework */,
+				8E08786A243C71A50029AE08 /* RxRelay.framework */,
+				8E087868243C71A50029AE08 /* RxSwift.framework */,
+				8E08786C243C71A50029AE08 /* RxTest.framework */,
+				8E08786B243C71A50029AE08 /* TimelaneCore.framework */,
 				BC94D932242972B70068D353 /* TimelaneCore.framework */,
 				BC94D92E242972B40068D353 /* RxSwift.framework */,
 			);
@@ -144,8 +164,6 @@
 			);
 			name = RxTimelane;
 			packageProductDependencies = (
-				8E087863243C67560029AE08 /* RxSwift */,
-				8E087865243C67560029AE08 /* TimelaneCore */,
 			);
 			productName = RxTimelane;
 			productReference = 8E087847243C5B8B0029AE08 /* RxTimelane.framework */;
@@ -553,16 +571,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8E087863243C67560029AE08 /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = BC15C5FA242AA86F00D8F7B5 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
-		8E087865243C67560029AE08 /* TimelaneCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = BC15C5FD242AA8C500D8F7B5 /* XCRemoteSwiftPackageReference "TimelaneCore" */;
-			productName = TimelaneCore;
-		};
 		BC15C5FB242AA86F00D8F7B5 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BC15C5FA242AA86F00D8F7B5 /* XCRemoteSwiftPackageReference "RxSwift" */;
